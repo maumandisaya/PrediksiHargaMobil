@@ -76,7 +76,7 @@ with st.form("prediction_form"):
         # Umumnya: 1 = Automatic, 0 = Manual (atau sebaliknya).
         # Di sini saya asumsikan 1 = Automatic, 0 = Manual.
         transmission_option = st.radio("Transmisi", ["Manual", "Automatic"])
-        transmission = 1 if transmission_option == "Automatic" else 0
+        transmission = 0 if transmission_option == "Automatic" else 1
 
     st.subheader("Fitur Tambahan")
     st.caption("Centang fitur yang tersedia pada mobil:")
