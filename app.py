@@ -50,7 +50,7 @@ car_map = load_car_names()
 # --- UI HEADER ---
 st.title("🚗 Aplikasi Prediksi Harga Mobil")
 st.markdown("""
-Aplikasi ini menggunakan algoritma **SVRt** untuk memprediksi harga pasaran mobil bekas
+Aplikasi ini menggunakan algoritma **Support Vector Regression** untuk memprediksi harga pasaran mobil bekas
 berdasarkan spesifikasi dan fitur yang dimiliki.
 """)
 st.divider()
@@ -146,4 +146,4 @@ if submitted:
 
 # --- SIDEBAR (Optional) ---
 st.sidebar.header("Tentang Aplikasi")
-st.sidebar.info("Dibuat menggunakan Python & Streamlit dengan model Machine Learning Support Vector Regression.")
+st.sidebar.info("Aplikasi berbasis Streamlit ini menggunakan model Machine Learning Support Vector Regression untuk memprediksikan harga dari mobil bekas.")
